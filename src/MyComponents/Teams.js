@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom';
 import Pulse from 'react-reveal/Pulse';
 import Testimonial from './Testimonial';
-import TestiMonialsDetails from './Testimonialdetail'
+
 import { Avatar } from '@material-ui/core'
 import download from "../images/download.png";
 const teams = () => {
