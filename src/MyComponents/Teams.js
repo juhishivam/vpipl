@@ -6,13 +6,32 @@ import Pulse from 'react-reveal/Pulse';
 import Testimonial from './Testimonial';
 
 import { Avatar } from '@material-ui/core'
-import download from "../images/download.png";
+import download from "../images/newavtar.jpg";
 const teams = () => {
     return (
         <>
+        <div className="team1">
+        <div className="container">
+          <div className="team_text">
+            <div>
+              <h1 style={{color:"Highlight"}}>
+               Our Teams
+              </h1>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
             <div className="container-lg">
-                <h1 className="text-center team-head t-blue fw-bold">Our Teams</h1>
-                <hr />
+                {/* <h1 className="text-center team-head t-blue fw-bold">Our Teams</h1>
+                <hr /> */}
+                 <section className="">
+          {/* <div className="aboutimg"> */}
+            {/* <img src={about} /> */}
+           
+          {/* </div> */}
+        </section>
                 <div className="connect-team">
                     {/* <h3 className="text-center pt-5 t-blue fw-bold">Our Team</h3> */}
                     <div className="row">

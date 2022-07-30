@@ -67,6 +67,24 @@ code {
  
  
 }
+/* team */
+.team1{
+  vertical-align: baseline;
+  width: 100% ;
+  background: url("/src/images/team.jpg") transparent;
+  height: 350px;
+  background-attachment: fixed;
+ 
+}
+.team_text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgb(245, 247, 252);
+}
 /* services */
 .servicetop{
   vertical-align: baseline;
@@ -86,6 +104,7 @@ code {
   margin: 0 auto;
   color: rgb(245, 247, 252);
 }
+
 .service_text h1 {
  background-color: #e2631a;
  
