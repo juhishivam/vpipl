@@ -81,8 +81,8 @@ input[type = 'channel']
   margin-top: 10rem;
   margin-bottom: 6rem;
   background-color: #F4F0E2;
-  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-  clip: rect(110px, 160px, 170px, 60px);
+  /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+  /* clip: rect(110px, 160px, 170px, 60px); */
 }
 .team-head{
   margin-top: 5rem;

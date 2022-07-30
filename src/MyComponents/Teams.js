@@ -35,9 +35,9 @@ const teams = () => {
                 <div className="connect-team">
                     {/* <h3 className="text-center pt-5 t-blue fw-bold">Our Team</h3> */}
                     <div className="row">
-                        <div className="col-md-4 connect-us-form">
-                            <img src={download} />
-                        </div>
+                        {/* <div className="col-md-4 connect-us-form">
+                            <img src="" />
+                        </div> */}
                         <div className="col-md-6 mt-5 mx-5 t-blue address">
                             <h4>A.Singh</h4>
                             <h5>(Senior Manager – Accounts /Tax/Advisory)</h5>
@@ -59,9 +59,9 @@ const teams = () => {
                 <div className="connect-team">
                     
                     <div className="row">
-                        <div className="col-md-4 connect-us-form">
-                            <img src={download} />
-                        </div>
+                        {/* <div className="col-md-4 connect-us-form">
+                            <img src="" />
+                        </div> */}
                         <div className="col-md-6 mt-5 mx-5 t-blue address">
                             <h4>S.Sharma</h4>
                             <h5>(Senior Manager – Accounts/Tax/Audit)</h5>
@@ -81,9 +81,9 @@ const teams = () => {
                 <div className="connect-team">
 
                     <div className="row">
-                        <div className="col-md-4 connect-us-form">
-                            <img src={download} />
-                        </div>
+                        {/* <div className="col-md-4 connect-us-form">
+                            <img src="" />
+                        </div> */}
                         <div className="col-md-6 mt-5 mx-5 t-blue address">
                             <h4>S.Agrawal</h4>
                             <h5>(Director & Founder)</h5>

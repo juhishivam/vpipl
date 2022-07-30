@@ -34,8 +34,8 @@ code {
 }
 
 .navbar-brand{
-  margin-left: 5rem;
-  font-size: 2rem !important;
+  margin-left: 1rem;
+  font-size: 1.5rem !important;
   color: #565387 !important;
 }
 .menu_active{
@@ -66,6 +66,9 @@ code {
   background-attachment: fixed;
  
  
+}
+.section ul li{
+  text-transform:lowercase;
 }
 /* team */
 .team1{

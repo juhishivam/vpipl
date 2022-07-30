@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com'
-import contact from "../images/customer.gif";
+import contact from "../images/contact.jpg";
 const Contact = () => {
     function sendEmail(e){
         e.preventDefault();
@@ -21,7 +21,7 @@ const Contact = () => {
               <h3>Any Queries?</h3>
               <h4>Contact us on....</h4>
               <h1>+91-9015150805</h1>
-              <h2 className="ms-5">Or</h2>
+              <h2 className="ms-5"></h2>
               <hr/>
               <h4>Ghaziabad
                 Uttar Pradesh</h4>

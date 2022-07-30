@@ -63,7 +63,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="section bg-c-light border-top">
+      {/* <div className="section bg-c-light border-top">
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center">
@@ -92,7 +92,7 @@ const Home = () => {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Services */}
       <div className="section border-top">
         <div className="container">
@@ -106,10 +106,10 @@ const Home = () => {
                 <div className="card shadow">
                     <img src={control} className="w-100 border-bottom" alt="Services"/>
                     <div className="card-body">
-                    <h6>CONTROL ASSURANCE</h6>
+                    <h6>Control Assurance</h6>
                     <div className="underline"></div>
                     <p>
-                    CONTROL ASSURANCE OF BUSINESS AND IT PROCESSES
+                    Control Assurance Of Business And IT Process
                 </p>
                 <Link to="/service" className="btn btn-link ">
                 Read More
@@ -123,10 +123,10 @@ const Home = () => {
                 <div className="card shadow">
                     <img src={business} className="w-100 border-bottom" alt="Services"/>
                     <div className="card-body">
-                    <h6>VALUATION </h6>
+                    <h6>Valuation </h6>
                     <div className="underline"></div>
                     <p>
-                    BUSINESS VALUATION SERVICES
+                    Business Valuation Services
                 </p>
                 <Link to="/service" className="btn btn-link ">
                 Read More
@@ -140,10 +140,10 @@ const Home = () => {
                 <div className="card shadow">
                     <img src={data} className="w-100 border-bottom" alt="Services"/>
                     <div className="card-body">
-                    <h6>DATA ANALYTICS</h6>
+                    <h6>Data Analytics</h6>
                     <div className="underline"></div>
                     <p>
-                    DATA ANALYTICS DEVELOPMENT OF STATISTICAL AND...
+                    Data Analytics Development Of Statistics And..
                 </p>
                 <Link to="/service" className="btn btn-link ">
                 Read More

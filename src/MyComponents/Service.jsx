@@ -42,8 +42,9 @@ const Service = () => {
           {/* <h5 className="main-heading">Our Company</h5> */}
           <h6>AUDIT & ASSURANCE</h6>
           <div className="underline"></div>
-          <ul>
-            <li>
+          <ul className="text-capitalize" >
+          {/* style={{textTransform: 'capitalize'}} */}
+            <li >
             ASSIST CPA FIRMS IN FINANCIAL STATEMENT AUDITS, REVIEWS & COMPILATIONS
             </li>
             <li>EMPLOYEE BENEFIT PLAN (EBP) AUDITS</li>

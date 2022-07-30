@@ -18,7 +18,7 @@ const Navbar = ({history}) => {
 
                         <nav className="navbar navbar-expand-md navbar-light fixed-top border-0"  >
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/" >VP IPL</NavLink>
+                                <NavLink className="navbar-brand" to="/" >Vibhuti Pioneer India Private Ltd (VPI IPL)</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShow(!show)}>
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
