@@ -1,1 +1,0 @@
-export const POST_DETAILS = "POST_DETAILS"
