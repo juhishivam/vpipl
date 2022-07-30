@@ -20,8 +20,8 @@ import Wobble from 'react-reveal/Wobble';
             alt="First slide"
           />
           <Carousel.Caption className="textC" >
-          <Jump><h3 className="textcar" >Grow Yourself with Us</h3></Jump>
-            <p className="paracar"> <Fade left>To grow yourself, you must first discover yourself</Fade></p>
+          <Jump><h3 className="textcar" >AUDIT & ASSURANCE</h3></Jump>
+            <p className="paracar"> <Fade left>ASSIST CPA Firms In Financial Statement Audits, Reviews & Compilations</Fade></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -31,8 +31,8 @@ import Wobble from 'react-reveal/Wobble';
             alt="Second slide"
           />
           <Carousel.Caption className="textC">
-            <h3 className="textcar"><Rotate>Start My Business</Rotate></h3>
-            <p className="paracar"><Fade bottom>HimSal is serving as a platform to enhance strategic cooperation and develop synergies</Fade></p>
+            <h3 className="textcar"><Rotate>ACCOUNTING MANAGED SERVICES (AMS)</Rotate></h3>
+            <p className="paracar"><Fade bottom>VP IPL Accounting Advisory Service (REV REC, LEASE ACCOUNTING ETC.)</Fade></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -42,8 +42,8 @@ import Wobble from 'react-reveal/Wobble';
             alt="Third slide"
           />
           <Carousel.Caption className="textC">
-            <h3 className="textcar"><Wobble>(GST Registration) India</Wobble></h3>
-            <p className="paracar"><Zoom> Mandatory for manufacturer, trader and service provider in India.</Zoom></p>
+            <h3 className="textcar"><Wobble>(BUSINESS VALUATION)</Wobble></h3>
+            <p className="paracar"><Zoom> Business Valuation/Fixed Asset Valuation.</Zoom></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

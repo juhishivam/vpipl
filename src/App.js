@@ -9,7 +9,7 @@ import About from './MyComponents/About';
 import Navbar from './MyComponents/Navbar'
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Service from './MyComponents/Service';
-import Whyus from './MyComponents/Whyus';
+import Teams from './MyComponents/Teams';
 import Footer from './MyComponents/footer'
 
 // import Footer from '../src/MyComponents/footer'
@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/service" component={Service} />
-        <Route exact path="/whyus" component={Whyus} />
+        <Route exact path="/teams" component={Teams} />
 
         <Redirect to="/" />
 

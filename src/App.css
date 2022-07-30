@@ -37,7 +37,88 @@ input[type = 'channel']
 .error{
   color: red;
 }
+.p{
+  font-size: 14px;
+  color: #262626;
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-heading{
+  color: rgb(204, 18, 18);
+}
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color: #f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.underline_team{
+  height: 04px;
+  width: 4rem;
+  background-color: #f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.bg-c-light{
+  background-color: #f2f2f2;
+}
+.footer a :hover{
+  color: gray !important;
+}
+/* contactus */
+.connect-us{
+  margin-top: 12rem;
+  margin-bottom: 8rem;
+  background-color: #F4F0E2;
+  clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100% );
+}
 
+.connect-team{
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  background-color: #F4F0E2;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  clip: rect(110px, 160px, 170px, 60px);
+}
+.team-head{
+  margin-top: 5rem;
+  color: #091353;
+}
+.connect-us-form{
+  background-color: white;
+  padding: 40px 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+.connect-us-form img{
+  width: 100%;
+}
+.connect-us-form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+}
+.connect-us-form input[type=submit]{
+  background-color: rgb(245,135,32);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.connect-us-form input[type=submit]:hover{
+  color: #091353;
+}
+.address{
+  padding-left: 100px;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

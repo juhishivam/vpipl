@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import HeadShake from 'react-reveal/HeadShake';
 import Pulse from 'react-reveal/Pulse';
 import Flash from 'react-reveal/Flash';
@@ -12,95 +12,69 @@ const Footer = () => {
     <>
 
       <footer className="w-100 bg-dark text-center footer border-0">
-      <div className="container">
-        <div className="row">
-          <div
-            className="col-lg-4"
-            style={{ marginTop: 50, marginBottom: 50, color: "white" }}
-          >
-            {/* <img className=" imgfuttorlogo" src={logo} alt="Logo" /> */}
-            <p>
-              Our Social Network
-            </p>
-           
-              <div >
-               <a target="_blank" href="" style={{margin:'10px' , fontSize:"40px"}}>
-               <HeadShake><i class="fa fa-facebook"></i></HeadShake>
-                </a>
-              
-              
-                <a
-                  target="_blank"
-                  href=""
-                >
-                  <Pulse><i class="fa fa-instagram" style={{margin:'10px', fontSize:"40px"}}></i></Pulse>
-                </a>
-              
-              
-                <a target="_blank" href="">
-                <Flash><i class="fa fa-whatsapp" style={{margin:'10px', fontSize:"40px"}}></i></Flash>
-                </a>
-              
-              
-                <a
-                  target="_blank"
-                  href=""
-                >
-                  <Shake><i class="fa fa-linkedin" style={{margin:'10px', fontSize:"40px"}}></i></Shake>
-                </a>
-              
-              
-                <a target="_blank" href="">
-                <Spin><i class="fa fa-twitter" style={{margin:'10px', fontSize:"40px"}}></i></Spin>
-                </a>
-              
-              
-                <a
-                  target="_blank"
-                  href=""
-                >
-                 <RubberBand><i class="fa fa-google" style={{margin:'10px' , fontSize:"40px"}}></i></RubberBand> 
-                </a>
-                
-           </div>
-          </div>
-          <div
-            className="col-lg 4 "
-            style={{ marginTop: 50, marginBottom: 50, color: "white" }}
-          >
-            <h4 className="h41 text-center">Quick Links</h4>
-            <p>
-              <NavLink className="footerAnchor" to="/"> <i class="fa fa-check"></i> Accounting</NavLink>
-            </p>
-            <p>
-              <NavLink className="footerAnchor" to="/"> <i class="fa fa-check"></i>Customer Support</NavLink>
-            </p>
-            <p>
-              <NavLink className="footerAnchor" to="/"> <i class="fa fa-check"></i> Get your Tax Information </NavLink>
-            </p>
-            <p>
-              <NavLink className="footerAnchor" to="/"> <i class="fa fa-check"></i>Loan Information </NavLink>
-            </p>
-            <p>
-              <NavLink className="footerAnchor" to="/"><i class="fa fa-check"></i> GST Information </NavLink>
-            </p>
-          </div>
-          <div
-            className="col-lg 4 "
-            style={{ marginTop: 50, marginBottom: 50, color: "white" }}
-          >
-            <h4 className="h41  text-center">INFORMATION</h4>
-            <p>
-              <span>
-                <NavLink className="footerAnchor" to="/privacy"> <i class="fa fa-check"></i> Privacy Policy</NavLink>
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-md-4"
+              style={{ marginTop: 50, marginBottom: 50, color: "white" }}
+            >
 
-              </span>
-            </p>
+              <h6>
+                Company Information
+              </h6>
+              <hr />
+              <p>VP IPL has set up an office in Delhi NCR to provide Tax, Advisory, Audit and
+                Accounting services. VP IPL comprises a team of skilled professionals who
+                address the most pressing needs of CPA Firms as well as Companies.</p>
+
+            </div>
+            <div
+              className="col-md-4 "
+              style={{ marginTop: 50, marginBottom: 50, color: "white" }}
+            >
+              <h6 className="h41 text-center">Quick Links</h6>
+              <hr />
+              <div>
+                <Link to="/"> Home</Link>
+              </div>
+              <div>
+                <Link to="/about"> About</Link>
+              </div>
+              <div>
+                <Link to="/contact">Contact</Link>
+              </div>
+              <div>
+                <Link to="/teams">Our Teams</Link>
+              </div>
+              <div>
+                <Link to="/service">Services</Link>
+              </div>
+
+            </div>
+            <div
+              className="col-lg 4 "
+              style={{ marginTop: 50, marginBottom: 50, color: "white" }}
+            >
+              <h6 className="text-center">Contact Information</h6>
+              <hr />
+              <div><p className='text-white mb-1'>
+                Vibhuti Pioneer India Private Limited
+                Corporate Office : 12072, Tower 5, E3,
+                Gh 07, Crossing Republic, Ghaziabad
+                Uttar Pradesh : 201016
+              </p></div>
+              <div><p className='text-white mb-1'>
+                vibhutipioneer@gmail.com
+              </p></div>
+              <div><p className='text-white mb-1'>
+                +91-9015150805
+              </p></div>
+
+            </div>
           </div>
         </div>
-      </div>
-      <div> <p className='footer-p'>© 2021 HimSal. All right reserverd</p></div>
-       
+        <div> <p className='footer-p'>© 2022 vpipl. All right reserverd</p></div>
+
 
       </footer>
     </>

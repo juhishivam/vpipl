@@ -34,9 +34,9 @@ function Testimonial() {
             prevArrow={<PreviousBTn/>}
             nextArrow={<NextBtn/>}
             >
-                <Card img={img1} />
-                <Card img={img1} />
-                <Card img={img1} />
+                <Card img={Avatar} />
+                <Card img={Avatar} />
+                <Card img={Avatar} />
             </Slider>
         </div></Zoom>
         </div>
@@ -51,7 +51,10 @@ const Card = ({img}) => {
             <p>He is a Fellow member of The Institute of Chartered Accountants of India with B.Com (Hons). He is having vast experience in the field of direct
                  & indirect taxation, Statutory Audits, Internal Audits, Stock Audits, Statutory Compliances.</p>
                 <p style={{fontStyle:"italic", marginTop:25}}><span style={{fontWeight:500,color:"blue"}}>RAM SHANKAR</span>, PROFILE</p>
+               
         </div>
+        
+        
     )
 }
 

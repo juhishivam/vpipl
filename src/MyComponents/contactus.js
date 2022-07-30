@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com'
+import contact from "../images/customer.gif";
 const Contact = () => {
     function sendEmail(e){
         e.preventDefault();
@@ -9,28 +10,28 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <div className="container border" style={{marginTop:"150px",marginBottom:"150px", width:'50%',
-        backgroundImage:`url('https://th.bing.com/th/id/OIP.8AESL__rKNk4q0NUsIuyPgHaF7?pid=ImgDet&rs=1')`,
-        backgroundPosition:'center',
-        backgroundSize:'cover'
-        }}>
-            <h1 style={{marginTop:'25px', marginLeft:'180px'}}>Contact Form</h1>
-            <form  className="row" style={{margin:"25px 85px 75px 100px"}} onSubmit={sendEmail}>
-                <label >Full Name</label>
-                <input placeholder='Full Name' type="text" name="name" className="form-control"/>
-                <label>Email</label>
-                <input placeholder='Your Email' type="email" name="email" className="form-control"/>
-                <label>Mobile Number</label>
-                <input placeholder='Your Mobile num...' type="text" name="mobile" className="form-control"/>
-                <label>Message</label>
-                <input placeholder='Reason For Contacting' type="text" name='message' rows='4' className='form-control'/>
-                <input  type="submit" value="Send" className="form-control  btn btn-success"
-                 style={{marginTop:"20px",width:165,marginLeft:"120px"}}
-                 
-                />
-                
-            </form>
+        <div className="container-lg">
+        <div className="connect-us">
+          <h3 className="text-center pt-5 t-blue fw-bold">Connect to Us</h3>
+          <div className="row">
+            <div className="col-md-4 connect-us-form">
+              <img src={contact}/>
+            </div>
+            <div className="col-md-6 mt-5 mx-5 t-blue address">
+              <h3>Any Queries?</h3>
+              <h4>Contact us on....</h4>
+              <h1>+91-9015150805</h1>
+              <h2 className="ms-5">Or</h2>
+              <hr/>
+              <h4>Ghaziabad
+                Uttar Pradesh</h4>
+              <h6>Tower 5, E3,
+                Gh 07, <br/> Crossing Republic, Ghaziabad <br/> Uttar Pradesh : 201016</h6>
+              <h6>vibhutipioneer@gmail.com</h6>
+            </div>
+          </div>
         </div>
+      </div>
     )
 }
 export default Contact;
