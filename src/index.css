@@ -74,7 +74,8 @@ code {
   background: url("/src/images/team.jpg") transparent;
   height: 350px;
   background-attachment: fixed;
- 
+  background-position:top;
+  background-size:contain;
 }
 .team_text{
   height: 450px;
