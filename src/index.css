@@ -36,7 +36,7 @@ code {
 .navbar-brand{
   margin-left: 1rem;
   font-size: 1.5rem !important;
-  color: #565387 !important;
+  color: #eae9f0 !important;
 }
 .menu_active{
   font-weight: bold;
@@ -278,7 +278,7 @@ transition: 300ms ease-out;
   color: rgba(59, 32, 32, 0.946);
   
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
 }
 .paracar{
   color: rgba(244, 242, 247, 0.946);

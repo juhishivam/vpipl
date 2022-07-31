@@ -18,7 +18,7 @@ const Navbar = ({history}) => {
 
                         <nav className="navbar navbar-expand-md navbar-light fixed-top border-0"  >
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/" >Vibhuti Pioneer India Private Ltd (VPIIPL)</NavLink>
+                                <NavLink className="navbar-brand" to="/" >Vibhuti Pioneer India Private Ltd (VPIPL)</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShow(!show)}>
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -28,7 +28,7 @@ const Navbar = ({history}) => {
                                             <NavLink className="nav-link"  aria-current="page" style={{color:'white', backgroundColor:getcolor('/')}} to="/"><i className='fa fa-home' aria-hidden="true" ></i></NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/about')}} to="/about">About</NavLink>
+                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/about')}} to="/about">About Us</NavLink>
                                         </li>
                                         <li className="nav-item">
                                             <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/service')}} to="/service">Service</NavLink>
@@ -37,7 +37,7 @@ const Navbar = ({history}) => {
                                             <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/teams')}} to="/teams">Teams</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/contact')}} to="/contact">Contact</NavLink>
+                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/contact')}} to="/contact">Contact Us</NavLink>
                                         </li>
                                        
 
