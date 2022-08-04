@@ -35,7 +35,7 @@ code {
 
 .navbar-brand{
   margin-left: 1rem;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem !important;
   color: #eae9f0 !important;
 }
 .menu_active{
@@ -48,27 +48,60 @@ code {
 }
 @media (max-width: 991px){
   .navbar-brand {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
   }
   .menu_active{
     font-weight: bold;
     border-bottom: none;
+    overflow: hidden;
   }
 }
 .homeimg{
   width: 100%;
 }
 .home2{
+  margin-bottom: 20px;
   vertical-align: baseline;
-  width: 100% ;
-  background: url("/src/images/team2.jpg") transparent;
-  height: 350px;
+  /* width: 100% ; */
+  background: url("/src/images/tax1.jpg") transparent;
+  /* height: 350px; */
   background-attachment: fixed;
+  padding: 20vw 10px;
+  background-size: 85% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
  
  
 }
-.section ul li{
-  text-transform:lowercase;
+.team2{
+  margin-bottom: 10px;
+  vertical-align: baseline;
+  /* width: 100% ; */
+  background: url("/src/images/why-us.png") transparent;
+  /* height: 350px; */
+  background-attachment: fixed;
+  padding: 20vw 10px;
+  background-size: 95% 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ourteam{
+  margin-top: 20px;
+}
+.about2{
+  margin-bottom: 20px;
+  vertical-align: baseline;
+  width: 100% ;
+  background: url("/src/images/coolabt.png") transparent;
+  height: 350px;
+  background-attachment: fixed;
+}
+/* .section ul li{
+  text-transform:capitalize !important;
+} */
+.text-capitalize{
+  text-transform:capitalize !important;
 }
 /* team */
 .team1{
@@ -103,7 +136,7 @@ code {
   height: 450px;
   display: flex;
   align-items: center;
-  width: 400px;
+  /* width: 400px; */
   justify-content: center;
   margin: 0 auto;
   color: rgb(245, 247, 252);
@@ -114,7 +147,7 @@ code {
  
 }
 .home__text{
-  height: 450px;
+  /* height: 450px; */
   display: flex;
   align-items: center;
   width: 400px;
@@ -126,10 +159,16 @@ code {
   height: 450px;
   display: flex;
   align-items: center;
-  width: 400px;
-  justify-content: center;
-  margin: 0 auto;
-  color: rgb(10, 63, 32);
+  /* width: 400px; */
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  color: rgb(235, 224, 30);
+  margin-top: 3.8rem;
+}
+.aboutlogo img{
+  width:10vw;
+    height: 10vh;
+    margin-left: 100px;
 }
 .about_text h1{
   font-size: 50px;
@@ -265,8 +304,8 @@ transition: 300ms ease-out;
 /*Start Carousel */
 .imgcarosel{
   height: 80vh;
-  /* width: 230vh; */
-  max-width:100%;
+  width: 230vw;
+  /* max-width:100%; */
   width: 100%;
   object-fit: cover;
 }
@@ -275,10 +314,10 @@ transition: 300ms ease-out;
   
 }
 .textcar{
-  color: rgba(59, 32, 32, 0.946);
+  color: rgba(243, 236, 236, 0.946);
   
   font-weight: 900;
-  font-size: 30px;
+  font-size: 25px;
 }
 .paracar{
   color: rgba(244, 242, 247, 0.946);
@@ -460,6 +499,8 @@ margin-bottom: 5rem;
 .footer{
 width: 100%;
 padding: 5px;
+background-color: #e2631a !important;
+background-image: linear-gradient(red, orange);
 }
 .footer-p{
   margin-top: 4rem;

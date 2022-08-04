@@ -6,13 +6,13 @@ import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import GotoTop from './MyComponents/GotoTop'
 ReactDOM.render(
   <>
     <BrowserRouter>
-    
+    <GotoTop>
       <App />
-      
+      </GotoTop>
     </BrowserRouter>
   </>,
   document.getElementById('root')

@@ -1,9 +1,12 @@
 {
-  "name":"vpipl",
+  "name": "vpipl",
   "homepage": "http://vibhutipioneer.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.10",
@@ -28,13 +31,12 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^1.1.1",
     "yup": "^0.32.9"
   },
   "scripts": {
-    
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

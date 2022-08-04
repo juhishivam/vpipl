@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Common from "./Common";
-import whyus from "../images/hands-1.png";
 import Typewriter from "typewriter-effect";
 import data from "../images/data.png";
 import business from "../images/valuation.png";
@@ -29,77 +28,30 @@ const Home = () => {
               <h3 className="main-heading">Our Company</h3>
               <div className="underline mx-auto"></div>
               <p>
-                VP IPL’s mission is to strengthen Global business by helping
+                Our mission is to strengthen Global business by helping
                 companies and the CPA firms that advise companies/corporates to
                 take full advantage of federal and state tax credits, incentives
                 and deductions that are available.
               </p>
-              <Link to="/about" className="btn btn-warning shadow">
+              <Link to="/about" className="btn btn-warning abthome">
                 Read More
               </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="home2">
-        <div className="container">
-          <div className="home__text">
-            <div>
-              <h1>
-                <span className="highlight" style={{ color: "darkblue" }}>
-                  Feel Free
-                </span>
-                to Contact Us
-              </h1>
-              <div className="home2__btn">
-                <NavLink
-                  to="/contact"
-                  className="btn btn-outline-primary rounded-pill startbutton"
-                >
-                  Contact Us
-                </NavLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className="section bg-c-light border-top">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 mb-4 text-center">
-              <h3 className="main-heading">Vision ,Mission and Values</h3>
-              <div className="underline mx-auto"></div>
-              
-            </div>
-            <div className="col-md-4 text-center">
-                <h5>Our Vision</h5>
-                <p>
-                  CONTROL TESTING OF BUSINESS AND IT PROCESSES FOR INTERNAL
-                  AUDITS, SOX, SOC 1/2/3, ETC.AUTOMATION OF CONTROLS:
-                </p>
-              </div>
-              <div className="col-md-4 text-center">
-                <h5>Our Mission</h5>
-                <p>
-                VP IPL is planning to have its presence in CANADA UNITED STATES  by year 2023.
-                </p>
-              </div>
-              <div className="col-md-4 text-center">
-                <h5>Our Core Values</h5>
-                <p>
-                Our hourly professional charges varies from $50 to $250.
-                </p>
-              </div>
-          </div>
-        </div>
-      </div> */}
+
+                
+
+
+
       {/* Services */}
       <div className="section border-top">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 mb-4 text-center">
+            <div className="col-md-12 text-center">
               <h3 className="main-heading">Our Services</h3>
-              <div className="underline mx-auto"></div>
+              {/* <div className="underline mx-auto"></div> */}
               
             </div>
             <div className="col-md-4 ">
@@ -153,6 +105,28 @@ const Home = () => {
                 
                 
               </div>
+          </div>
+        </div>
+      </div>
+      <div className="home2">
+        <div className="container">
+          <div className="">
+            <div>
+              <h1>
+                <span  style={{ color: "yellow" }}>
+                  Feel Free               
+                to Contact Us
+                </span>
+              </h1>
+              <div className="home2__btn">
+                <NavLink
+                  to="/contact"
+                  className="btn btn-outline-primary rounded-pill startbutton"
+                >
+                  Contact Us
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>

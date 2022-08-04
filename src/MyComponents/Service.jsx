@@ -1,8 +1,13 @@
 import React from "react";
 import Card from "../MyComponents/Card";
 import Sdata from "../MyComponents/Sdata";
+const capitalizeFirstLowercaseRest = str => {
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+};
+
 
 const Service = () => {
+  
   return (
     <>
       {/* <div className="ourservice">
@@ -18,7 +23,7 @@ const Service = () => {
           available.
         </p>
       </div> */}
-       <section className="">
+       <section className="" >
           {/* <div className="aboutimg"> */}
             {/* <img src={about} /> */}
         <div className="servicetop">
@@ -42,39 +47,40 @@ const Service = () => {
           {/* <h5 className="main-heading">Our Company</h5> */}
           <h6>AUDIT & ASSURANCE</h6>
           <div className="underline"></div>
-          <ul className="text-capitalize" >
+          <ul  >
           {/* style={{textTransform: 'capitalize'}} */}
-            <li >
-            ASSIST CPA FIRMS IN FINANCIAL STATEMENT AUDITS, REVIEWS & COMPILATIONS
+            {/* <li className="text-capitalize"> */}
+            <li >{capitalizeFirstLowercaseRest('ASSIST CPA FIRMS IN FINANCIAL STATEMENT AUDITS, REVIEWS & COMPILATIONS')}
+            
             </li>
-            <li>EMPLOYEE BENEFIT PLAN (EBP) AUDITS</li>
-            <li>SINGLE AUDITS & NOT-FOR-PROFIT (NFP) AUDITS</li>
-            <li>ASSURANCE SERVICES</li>
+            <li>{capitalizeFirstLowercaseRest('EMPLOYEE BENEFIT PLAN (EBP) AUDITS')}</li>
+            <li>{capitalizeFirstLowercaseRest('SINGLE AUDITS & NOT-FOR-PROFIT (NFP) AUDITS')}</li>
+            <li>{capitalizeFirstLowercaseRest('ASSURANCE SERVICES')}</li>
           </ul>
           <hr className="line" />
           <h6>ACCOUNTING MANAGED SERVICES (AMS)</h6>
           <div className="underline"></div>
           <ul>
             <li>
-            BOOKKEEPING & GL ACCOUNTING
+            {capitalizeFirstLowercaseRest('BOOKKEEPING & GL ACCOUNTING')}
             </li>
-            <li>ACCOUNTS RECEIVABLES & PAYABLES</li>
-            <li>BANK RECONCILIATIONS/CASH APPLICATIONS</li>
-            <li>INVENTORY & FIXED ASSETS ACCOUNTING</li>
-            <li>FINANCIAL STATEMENTS PREPARATION</li>
-            <li>ACCOUNTING ADVISORY SERVICE (REV REC, LEASE ACCOUNTING ETC.)</li>
-            <li>PREPARATION OF STATE TAX & PROPERTY TAX RETURNS ETC.</li>
+            <li>{capitalizeFirstLowercaseRest("ACCOUNTS RECEIVABLES & PAYABLES")}</li>
+            <li>{capitalizeFirstLowercaseRest("BANK RECONCILIATIONS/CASH APPLICATIONS")}</li>
+            <li>{capitalizeFirstLowercaseRest("INVENTORY & FIXED ASSETS ACCOUNTING")}</li>
+            <li>{capitalizeFirstLowercaseRest("FINANCIAL STATEMENTS PREPARATION")}</li>
+            <li>{capitalizeFirstLowercaseRest("ACCOUNTING ADVISORY SERVICE (REV REC, LEASE ACCOUNTING ETC.)")}</li>
+            <li>{capitalizeFirstLowercaseRest("PREPARATION OF STATE TAX & PROPERTY TAX RETURNS ETC.")}</li>
           </ul>
           <hr className="line" />
           <h6>TAXATION/INTERNATIONAL TAXATION</h6>
           <div className="underline"></div>
           <ul>
             <li>
-            TAX COMPLIANCE ASSISTANCE
+            {capitalizeFirstLowercaseRest("TAX COMPLIANCE ASSISTANCE")}
             </li>
-            <li>TAX REFORMS UNDER TAX CUTS AND JOBS ACT (TCJA)</li>
-            <li>ELECTIONS, STATEMENTS, AND DISCLOSURES REPORTING</li>
-            <li>E-FILING ASSISTANCE</li>
+            <li>{capitalizeFirstLowercaseRest("TAX REFORMS UNDER TAX CUTS AND JOBS ACT (TCJA)")}</li>
+            <li>{capitalizeFirstLowercaseRest("ELECTIONS, STATEMENTS, AND DISCLOSURES REPORTING")}</li>
+            <li>{capitalizeFirstLowercaseRest("E-FILING ASSISTANCE")}</li>
             
           </ul>
           <hr className="line" />
@@ -83,31 +89,29 @@ const Service = () => {
           <ul>
             <li>
               
-              CONTROL TESTING OF BUSINESS AND IT PROCESSES FOR INTERNAL AUDITS,
-              SOX, SOC 1/2/3, ETC.
+              {capitalizeFirstLowercaseRest("CONTROL TESTING OF BUSINESS AND IT PROCESSES FOR INTERNAL AUDITS,SOX, SOC 1/2/3, ETC.")}
             </li>
-            <li>AUTOMATION OF CONTROLS:</li>
+            <li>{capitalizeFirstLowercaseRest("AUTOMATION OF CONTROLS:")}</li>
           </ul>
 
           <hr className="line" />
           <h6>BUSINESS VALUATION SERVICES</h6>
           <div className="underline"></div>
           <ul>
-            <li> BUSINESS COMBINATIONS / PURCHASE PRICE ALLOCATION</li>
-            <li>VALUATION OF EQUITY AND DEBT INSTRUMENTS</li>
-            <li>STRATEGIC VALUE ADVISORY</li>
-            <li>INTANGIBLE ASSET / INTELLECTUAL PROPERTY VALUATION</li>
-            <li>GOODWILL AND INTANGIBLE ASSET IMPAIRMENT BUSINESS</li>
-            <li>BUSINESS VALUATION/FIXED ASSET VALUATION</li>
+            <li>{capitalizeFirstLowercaseRest(" BUSINESS COMBINATIONS / PURCHASE PRICE ALLOCATION")}</li>
+            <li>{capitalizeFirstLowercaseRest("VALUATION OF EQUITY AND DEBT INSTRUMENTS")}</li>
+            <li>{capitalizeFirstLowercaseRest("STRATEGIC VALUE ADVISORY")}</li>
+            <li>{capitalizeFirstLowercaseRest("INTANGIBLE ASSET / INTELLECTUAL PROPERTY VALUATION")}</li>
+            <li>{capitalizeFirstLowercaseRest("GOODWILL AND INTANGIBLE ASSET IMPAIRMENT BUSINESS")}</li>
+            <li>{capitalizeFirstLowercaseRest("BUSINESS VALUATION/FIXED ASSET VALUATION")}</li>
           </ul>
           <hr className="line" />
           <h6>DATA ANALYTICS</h6>
           <div className="underline"></div>
           <ul>
-            <li>OUTLIERS ANALYSIS</li>
+            <li>{capitalizeFirstLowercaseRest("OUTLIERS ANALYSIS")}</li>
             <li>
-              DEVELOPMENT OF STATISTICAL AND PREDICTIVE MODELS ANALYSING DATA
-              AND IDENTIFYING MAJOR FLUCTUATIONS FROM MODEL.
+              {capitalizeFirstLowercaseRest("DEVELOPMENT OF STATISTICAL AND PREDICTIVE MODELS ANALYSING DATA AND IDENTIFYING MAJOR FLUCTUATIONS FROM MODEL.")}
             </li>
           </ul>
         </div>

@@ -10,19 +10,19 @@ import download from "../images/newavtar.jpg";
 const teams = () => {
     return (
         <>
-        <div className="home2">
+        <div className="team2">
         <div className="container">
-          <div className="home__text">
-            <div>
-              <h1>
-                <span className="highlight" style={{ color: "black" }}>
+          {/* <div className=""> */}
+            
+              <h1 className='ourteam'>
+                <span className="" style={{ color: "red" }}>
                   OUR TEAMS
                 </span>
                
               </h1>
               
-            </div>
-          </div>
+           
+          {/* </div> */}
         </div>
       </div>
             {/* <div className="container-lg">
@@ -164,13 +164,11 @@ const teams = () => {
             <div className='col-md-6 border-start'>
              
               {/* <div className='underline'></div> */}
-              <ul><li>Finance Professional, offering nearly 16
-                                years of experience with AG India,
-                                Deloitte, Reliance Communication, MTS
-                                & Bharti Airtel Limited</li><li>Diversified industrial experience across
-                                    various segments such as Audit, Taxation,
-                                    Valuations, Business Planning, SOX
-                                    Compliances, Risk & Business Advisory.</li></ul>
+              <ul><li>Finance Professional, offering nearly 12 years of
+                                experience with Deloitte and Yatra.com.</li><li>Carry rich experience in managing overall finance
+                                    function, maintenance and finalization of accounts,
+                                    taxation, audits, internal financial control, risk
+                                    assessment and sox/soc compliances.</li></ul>
             </div>
             </div>
 

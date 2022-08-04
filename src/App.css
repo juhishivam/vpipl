@@ -69,13 +69,24 @@ input[type = 'channel']
 .footer a :hover{
   color: gray !important;
 }
+.info{
+  text-align:justify;
+}
+.footer2{
+  background-color: rgb(224, 137, 22);
+  
+}
+/* .rightpara{
+  text-align:justify;
+  margin-left: 15rem;
+} */
 /* contactus */
 .connect-us{
   margin-top: 12rem;
   margin-bottom: 8rem;
   background-color: #F4F0E2;
   clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100% );
-
+  /* width: 100%; */
 }
 @media (max-width: 991px){
   .connect-us{
@@ -87,12 +98,24 @@ input[type = 'channel']
   }
 }
 .shadow{
-  margin-top: 5rem;
+  margin-top: 4rem; 
+   margin-bottom: 2rem;
+}
+.contactshadow{
+  margin-top: 9rem; 
+   margin-bottom: 4rem;
+}
+.abthome{
+  margin-top: 2rem; 
   margin-bottom: 2rem;
 }
-.card-body{
-  margin-top: 5rem;
+.contactcard{
+  margin-top: 3rem; 
+   margin-bottom: 2rem;
 }
+/* .card-body{
+  margin-top: 5rem;
+} */
 
 .connect-team{
   margin-top: 10rem;

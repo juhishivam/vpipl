@@ -3,6 +3,7 @@ import Common from "./Common";
 import web from "../images/writing.png";
 import about from "../images/about.png";
 import Testimonial from "./Testimonial";
+import logo from '../images/logo1.png'
 import { NavLink } from "react-router-dom";
 import Flash from "react-reveal";
 import Zoom from "react-reveal/Zoom";
@@ -26,17 +27,27 @@ const About = (props) => {
         <section className="">
           {/* <div className="aboutimg"> */}
           {/* <img src={about} /> */}
-          <div className="home2">
+          <div className="about2">
             <div className="container">
               <div className="about_text">
-                <div>
+               
+                  <div className="col-md-6">
                   <h1>
                     <Zoom> About</Zoom>
-                    <span className="highlight" style={{ color: "white" }}>
-                      VP IPL’s
-                    </span>
+                    <div className="row-12">
+                    <div className="col-md-2 aboutlogo">
+                      <img style={{width:"56px"}} src={logo}/>
+                    </div>
+                  </div>
                   </h1>
+                  <div className="col-sm-8">
+                  
+                  </div>
+                 
+                  
+                  
                 </div>
+                
               </div>
             </div>
           </div>

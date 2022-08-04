@@ -1,8 +1,8 @@
 import React ,{useState}from 'react'
+import logo from '../images/logo1.png'
 import { NavLink,withRouter } from 'react-router-dom'
-
 const Navbar = ({history}) => {
-    const [show,setShow] = useState(false)
+const [show,setShow] = useState(false)
  console.log("history",history);
  const getcolor = (curr) => {
     if(history.location.pathname === curr){
@@ -18,7 +18,7 @@ const Navbar = ({history}) => {
 
                         <nav className="navbar navbar-expand-md navbar-light fixed-top border-0"  >
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/" >Vibhuti Pioneer India Private Ltd (VPIPL)</NavLink>
+                                <NavLink className="navbar-brand" to="/" ><img style={{width:"36px"}} src={logo}/> Vibhuti Pioneer India Private Limited (VPIPL)</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShow(!show)}>
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
