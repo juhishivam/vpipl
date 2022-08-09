@@ -46,7 +46,7 @@ import Wobble from 'react-reveal/Wobble';
             alt="Third slide"
           />
           <Carousel.Caption className="textC">
-            <h3 className="textcar"><Wobble>(BUSINESS VALUATION)</Wobble></h3>
+            <h3 className="textcar"><Wobble>BUSINESS VALUATION</Wobble></h3>
             <p className="paracar"><Zoom> <span style={{color:"yellow"}}>Business Valuation/Fixed Asset Valuation.</span></Zoom></p>
           </Carousel.Caption>
         </Carousel.Item>

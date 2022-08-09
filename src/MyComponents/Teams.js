@@ -14,12 +14,12 @@ const teams = () => {
         <div className="container">
           {/* <div className=""> */}
             
-              <h1 className='ourteam'>
+              <Pulse><h1 className='ourteam'>
                 <span className="" style={{ color: "red" }}>
-                  OUR TEAMS
+                  OUR TEAM
                 </span>
                
-              </h1>
+              </h1></Pulse>
               
            
           {/* </div> */}
@@ -106,8 +106,8 @@ const teams = () => {
           <div className='card-body'>
             <div className='row'>
               <div className='col-md-6 connect-us'>
-              <h4>A.Singh</h4>
-                            <h5>(Senior Manager – Accounts /Tax/Advisory)</h5>
+              <h4 className='teamhead'>Avishekh Singh</h4>
+                            <h5 className='teamname'>Senior Manager – Accounts /Tax/Advisory</h5>
               </div>
             <div className='col-md-6 border-start'>
               {/* <h5>Address Information</h5> */}
@@ -132,8 +132,8 @@ const teams = () => {
           <div className='card-body'>
             <div className='row'>
               <div className='col-md-6 connect-us'>
-              <h4>S.Agrawal</h4>
-                            <h5>(Director & Founder)</h5>
+              <h4 className='teamhead'>Sunita Agrawal</h4>
+                            <h5 className='teamname'>Director & Founder</h5>
               </div>
             <div className='col-md-6 border-start'>
               {/* <h5>Address Information</h5> */}
@@ -158,8 +158,8 @@ const teams = () => {
           <div className='card-body'>
             <div className='row'>
               <div className='col-md-6 connect-us'>
-              <h4>S.Sharma</h4>
-                            <h5>(Senior Manager – Accounts/Tax/Audit)</h5>
+              <h4 className='teamhead'>Sudha Sharma</h4>
+                            <h5 className='teamname'>Senior Manager – Accounts/Tax/Audit</h5>
               </div>
             <div className='col-md-6 border-start'>
              

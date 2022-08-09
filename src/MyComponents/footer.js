@@ -121,7 +121,7 @@ const Footer = () => {
               style={{ marginTop: 20, marginBottom: 50, color: "white" }}
             >
               <div><FontAwesomeIcon icon="fa-solid fa-arrows-down-to-people" />
-              <i class="fa fa-group"></i><Link to="/teams"> Our Teams</Link>
+              <i class="fa fa-group"></i><Link to="/teams"> Our Team</Link>
               </div>
 
 

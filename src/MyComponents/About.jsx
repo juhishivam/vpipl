@@ -24,35 +24,38 @@ const About = (props) => {
             </div>
           </div>
         </section> */}
-        <section className="">
+        {/* <section className=""> */}
           {/* <div className="aboutimg"> */}
           {/* <img src={about} /> */}
           <div className="about2">
             <div className="container">
+              {/* <div className="about_text"> */}
               <div className="about_text">
-               
-                  <div className="col-md-6">
-                  <h1>
-                    <Zoom> About</Zoom>
-                    <div className="row-12">
-                    <div className="col-md-2 aboutlogo">
-                      <img style={{width:"56px"}} src={logo}/>
+
+                  {/* <div className="col-md-6"> */}
+                  <h1 className="textabout">
+                    <Zoom><span className="textabout"  style={{ color: "yellow" }}> About </span></Zoom>
+                    </h1>
+                    {/* <div className="row-12"> */}
+                    <div className="textcontact">
+                      <img  style={{width:"210px"}} src={logo}/>
                     </div>
-                  </div>
-                  </h1>
-                  <div className="col-sm-8">
+                  {/* </div> */}
                   
-                  </div>
+                  
+                  
+                  {/* </div> */}
                  
                   
                   
-                </div>
+              
                 
               </div>
+              
             </div>
           </div>
           {/* </div> */}
-        </section>
+        {/* </section> */}
         <section className="section bg-c-light border-bottom">
           <div className="container">
             <h5 className="main-heading">Our Company</h5>

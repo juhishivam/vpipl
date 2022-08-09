@@ -31,10 +31,10 @@ const [show,setShow] = useState(false)
                                             <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/about')}} to="/about">About Us</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/service')}} to="/service">Service</NavLink>
+                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/service')}} to="/service">Services</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/teams')}} to="/teams">Teams</NavLink>
+                                            <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/teams')}} to="/teams">Team</NavLink>
                                         </li>
                                         <li className="nav-item">
                                             <NavLink className="nav-link" style={{color:'white' , backgroundColor:getcolor('/contact')}} to="/contact">Contact Us</NavLink>

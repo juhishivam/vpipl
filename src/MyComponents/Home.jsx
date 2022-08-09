@@ -8,7 +8,9 @@ import CarouselContainer from "./Carousel";
 import { Link, NavLink } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Zoom from "react-reveal/Zoom";
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+
 const Home = () => {
   const [state] = useState({
       title:"HimSal",
@@ -111,22 +113,23 @@ const Home = () => {
       <div className="home2">
         <div className="container">
           <div className="">
-            <div>
-              <h1>
-                <span  style={{ color: "yellow" }}>
+            {/* <div> */}
+            <Fade left big>
+ <h1>
+                <span className="textcontact"  style={{ color: "yellow" }}>
                   Feel Free               
                 to Contact Us
                 </span>
-              </h1>
-              <div className="home2__btn">
-                <NavLink
+              </h1></Fade>
+              <div className="home2__btn textcontact" >
+              <Slide right> <NavLink
                   to="/contact"
                   className="btn btn-outline-primary rounded-pill startbutton"
                 >
                   Contact Us
-                </NavLink>
+                </NavLink></Slide>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

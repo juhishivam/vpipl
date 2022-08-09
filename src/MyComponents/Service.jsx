@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../MyComponents/Card";
 import Sdata from "../MyComponents/Sdata";
+import Zoom from "react-reveal/LightSpeed";
+
 const capitalizeFirstLowercaseRest = str => {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 };
@@ -30,10 +32,10 @@ const Service = () => {
         <div  className="container">
           <div className="service_text">
             <div>
-              <h1> Our              
+            <Zoom> <h1> Our              
                 Services
                
-              </h1>
+              </h1></Zoom>
 
             </div>
           </div>
@@ -98,7 +100,7 @@ const Service = () => {
           <h6>BUSINESS VALUATION SERVICES</h6>
           <div className="underline"></div>
           <ul>
-            <li>{capitalizeFirstLowercaseRest(" BUSINESS COMBINATIONS / PURCHASE PRICE ALLOCATION")}</li>
+            <li>{capitalizeFirstLowercaseRest("BUSINESS COMBINATIONS / PURCHASE PRICE ALLOCATION")}</li>
             <li>{capitalizeFirstLowercaseRest("VALUATION OF EQUITY AND DEBT INSTRUMENTS")}</li>
             <li>{capitalizeFirstLowercaseRest("STRATEGIC VALUE ADVISORY")}</li>
             <li>{capitalizeFirstLowercaseRest("INTANGIBLE ASSET / INTELLECTUAL PROPERTY VALUATION")}</li>

@@ -19,7 +19,7 @@ const Contactus = () => {
               <img style={{width:"100%"}} src={contact}/>
               </div>
             <div className='col-md-6 border-start'>
-              <h5>Address Information</h5>
+              <h5>Address </h5>
               <div className='underline'></div>
               <p className='info'><i class="fas fa-address-card" style={{font:"48px", color:"red"}}></i> CP- FF- 4A
               Gallaria -2, <br/> Crossing Republic, Ghaziabad <br/> Uttar Pradesh : 201016</p>
