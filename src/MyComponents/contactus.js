@@ -21,10 +21,10 @@ const Contactus = () => {
             <div className='col-md-6 border-start'>
               <h5>Address </h5>
               <div className='underline'></div>
-              <p className='info'><i class="fas fa-address-card" style={{font:"48px", color:"red"}}></i> CP- FF- 4A
-              Gallaria -2, <br/> Crossing Republic, Ghaziabad <br/> Uttar Pradesh : 201016</p>
-                <p><i class="fa fa-phone" style={{font:"48px", color:"red"}}></i> Phone: 91-9015150805</p>
-                <p><i class="fa fa-envelope" style={{font:"48px", color:"red"}}></i> Email: info@vibhutipioneer.com </p>
+              <p className='info'><i class="fas fa-address-card" style={{font:"48px", color:"red"}}></i>12072, 12th Floor 5,GH07
+               <br/> Crossing Republic, Ghaziabad <br/> Uttar Pradesh : 201016</p>
+                <p><a href ="tel:91-9015150805"><i class="fa fa-phone" style={{font:"48px", color:"red"}}></i> Phone: 91-9015150805</a></p>
+                <p><a href="mailto:info@vibhutipioneer.com"><i class="fa fa-envelope" style={{font:"48px", color:"red"}}></i> Email: info@vibhutipioneer.com </a></p>
             </div>
             </div>
 

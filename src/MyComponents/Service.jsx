@@ -116,6 +116,19 @@ const Service = () => {
               {capitalizeFirstLowercaseRest("DEVELOPMENT OF STATISTICAL AND PREDICTIVE MODELS ANALYSING DATA AND IDENTIFYING MAJOR FLUCTUATIONS FROM MODEL.")}
             </li>
           </ul>
+          <hr className="line" />
+          <h6>PAYROLL PROCESSING SERVICES</h6>
+          <div className="underline"></div>
+          <ul>
+            <li>EPF</li>
+            <li>ESIC</li>
+            <li>Standing orders</li>
+            <li>Staffing Services – Temporary manpower outsourcing & management</li>
+            <li>Payroll management - Managing payroll of the outsourced manpower</li>
+            <li>Compliance management – End – to – end statutory compliance management of the  
+outsourced manpower
+</li>
+          </ul>
         </div>
       </section>
     </>
