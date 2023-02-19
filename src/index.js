@@ -11,11 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import GotoTop from './MyComponents/GotoTop'
 ReactDOM.render(
   <>
-    <HashRouter >
+    <BrowserRouter >
     <GotoTop>
       <App />
       </GotoTop>
-    </HashRouter>
+    </BrowserRouter>
   </>,
   document.getElementById('root')
 );
