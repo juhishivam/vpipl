@@ -61,13 +61,13 @@ const Footer = () => {
               <hr />
               <div><p className='text-white mb-1 rightpara '>
                 Vibhuti Pioneer India Private Limited<br />
-                CP- FF- 4A, Gallaria -2, Crossing Republic<br /> Ghaziabad, U.P -201016
+                12072, 12th Floor 5,GH07, Crossing Republic<br /> Ghaziabad, U.P -201016
               </p></div>
-              <div><p className='text-white mb-1'>
-                <i class="fa fa-envelope" aria-hidden="true"></i> info@vibhutipioneer.com
+              <div><p className='text-white mb-1'><a href="mailto:info@vibhutipioneer.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i> info@vibhutipioneer.com</a>
               </p></div>
-              <div><p className='text-white mb-1'>
-                <i class="fa fa-phone"></i>+91-9015150805
+              <div><p className='text-white mb-1'><a href ="tel:91-9015150805">
+                <i class="fa fa-phone"></i>+91-9015150805</a>
               </p></div>
 
             </div>
